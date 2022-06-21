@@ -1,0 +1,46 @@
+---
+title: "Untitled"
+output: 
+  flexdashboard::flex_dashboard:
+    theme: bootstrap
+    orientation: columns
+    vertical_layout: fill
+---
+
+.chart-title {  /* chart_title  */
+   font-size: 18px;
+  }
+body{ /* Normal  */
+      font-size: 16px;
+  }
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+```
+# Introduction
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+
+```
+
+### Chart C
+
+```{r}
+
+```
+
+# Data Exploration
